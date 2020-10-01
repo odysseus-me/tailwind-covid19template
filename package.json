@@ -1,0 +1,14 @@
+{
+  "name": "covid19statistic-template",
+  "version": "1.0.0",
+  "description": "Template Covid 19 Statistic",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o public/style.css"
+  },
+  "author": "muhammadgata",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
+  }
+}
