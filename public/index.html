@@ -8,17 +8,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class=" font-body">
-    <div>
+    <div id="background" class="block">
         <nav class="bg-gray-900 py-3 px-10 mb-5 flex justify-between">
             <h1 class="text-white text-2xl font-bold">Covid 19</h1>
-            <a href="" class="item-center flex">
-                <div class="text-white flex items-center hover:text-gray-600">
-                    <div class="rounded-full border-2 p-1">
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+            <div>
+                <div class="item-center flex">
+                    <div class="text-white flex items-center hover:text-gray-600">
+                        <div class="rounded-full border-2 p-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                        </div>
+                        <p class="ml-2 md:block hidden">Muhammad Gata</p>
                     </div>
-                    <p class="ml-2 md:block hidden">Muhammad Gata</p>
+                    <div class="flex items-center ml-10">
+                        <div id="btn-bg" class="btn-bg border rounded-md px-3 py-1 text-sm text-white font-bold">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+                        </div>
+                    </div>
                 </div>
-            </a>
+            </div>
         </nav>
 
         <main class="w-5/6 mx-auto">
@@ -103,9 +110,12 @@
            </div>
         </main>
 
-        <footer class="w-5/6 mx-auto mb-10 text-center text-gray-600"> 
+        <footer class="w-5/6 mx-auto pb-10 text-center text-gray-600"> 
             <p>&copy; Muhammad Gata => (Odysseus) and Build with &hearts;</p>
         </footer>
     </div>
+
+
+    <script src="./app.js"></script>
 </body>
 </html>
